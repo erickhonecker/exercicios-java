@@ -10,7 +10,7 @@ public class estoque_matriz {
 			System.out.print("\t\t   produto 1"+ "   produto 2 "+"    produto 3 \n");
 		
 		for(int l = 0; l < estoque.length; l++ ) {
-			System.out.print("Armazém " + l+"  --->");
+			System.out.print("Armazem " + l+"  --->");
 			
 			for(int c = 0; c < estoque[l].length; c++) {
 				System.out.print("  |  "+estoque[l][c]+"    ");

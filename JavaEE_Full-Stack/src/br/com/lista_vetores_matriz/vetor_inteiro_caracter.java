@@ -29,6 +29,11 @@ public class vetor_inteiro_caracter {
 			}
 			
 		}
+		/*
+		for (int j : vetor) {
+			
+		}
+		*/
 	}
 
 }
