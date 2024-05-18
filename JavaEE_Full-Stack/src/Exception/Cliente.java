@@ -20,7 +20,7 @@ public class Cliente {
 
 	public void setCodigo(int codigo) throws IllegalArgumentException {
 		if (codigo <=0)
-			throw new IllegalArgumentException("código inválido: "+codigo);
+			throw new IllegalArgumentException("cï¿½digo invï¿½lido: "+codigo);
 		this.codigo = codigo;
 	}
 
@@ -31,7 +31,7 @@ public class Cliente {
 
 	public void setNome(String nome) throws IllegalArgumentException {
 		if (nome == null)
-			throw new IllegalArgumentException("nome inválido! ");
+			throw new IllegalArgumentException("nome invï¿½lido! ");
 		if (nome.equals(""))
 			throw new IllegalArgumentException("nome vazio! ");
 
@@ -44,7 +44,7 @@ public class Cliente {
 
 	public void setCPF(String cPF) throws IllegalArgumentException {
 		if (cPF == null)
-			throw new IllegalArgumentException("CPF inválido! ");
+			throw new IllegalArgumentException("CPF invï¿½lido! ");
 		if (cPF.equals(""))
 			throw new IllegalArgumentException("CPF vazio! ");
 
@@ -67,11 +67,11 @@ public class Cliente {
 		class Produto {
 		private int codigo;
 		private String nome;
-		private double preço;
+		private double preco;
 		public Produto (int c, String n, double p) {
 		setCodigo(c);
 		setNome(n);
-		setPreço(p);
+		setPreco(p);
 		}
 
 		 public int getCodigo() {
@@ -80,7 +80,7 @@ public class Cliente {
 
 		 public void setCodigo(int codigo) throws IllegalArgumentException {
 		if (codigo <=0)
-		throw new IllegalArgumentException("código inválido: "+codigo);
+		throw new IllegalArgumentException("cï¿½digo invï¿½lido: "+codigo);
 
 		 this.codigo = codigo;
 		}
@@ -91,21 +91,21 @@ public class Cliente {
 
 		 public void setNome(String nome) throws IllegalArgumentException {
 		if (nome == null)
-		throw new IllegalArgumentException("nome inválido! ");
+		throw new IllegalArgumentException("nome invï¿½lido! ");
 		if (nome.equals(""))
 		throw new IllegalArgumentException("nome vazio! ");
 		this.nome = nome;
 		}
 
-		 public double getPreço() {
-		return preço;
+		 public double getPreco() {
+		return preco;
 		}
 
-		 public void setPreço(double preço) throws IllegalArgumentException {
-		if (preço <=0)
-		throw new IllegalArgumentException("Preço inválido: "+preço);
+		 public void setPreco(double preco) throws IllegalArgumentException {
+		if (preco <=0)
+		throw new IllegalArgumentException("Preï¿½o invï¿½lido: "+preco);
 
-		 this.preço = preço;
+		 this.preco = preco;
 		}
 
 

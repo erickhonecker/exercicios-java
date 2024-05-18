@@ -2,7 +2,7 @@ package br.com.lista_vetores_matriz;
 
 import java.util.Scanner;
 
-public class multiplicação_entre_vetores {
+public class multiplicacao_entre_vetores {
 
 	public static void main(String[] args) {
 		int n;
@@ -22,7 +22,7 @@ public class multiplicação_entre_vetores {
 		
 		for(int j = 0; j < n; j++) {
 			produto[j] = vetor[j] * matriz[j];
-			System.out.println("---------- Produto da Multiplicação --------");
+			System.out.println("---------- Produto da Multiplicaï¿½ï¿½o --------");
 			System.out.println(" Calcule o produto de: \n vetor["+j+"]= "+vetor[j]+ " matriz["+j+"] = " +matriz[j]+"\n"  );
 			System.out.println( " R: vetor["+j+"] x matriz["+j+"] = "+ produto[j]+" \n ");	
 		}
